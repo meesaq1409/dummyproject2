@@ -12,14 +12,14 @@ public class CreateDummyTest {
 	public void demo()
 	{	WebDriver driver = null;
 	
-		String browser=System.getProperty("browser");
-		String url = System.getProperty("url");
-	
-		if(browser.equals("chrome"))
-		{
-			driver=new ChromeDriver();
-			driver.get(url);	
-		}
+//		String browser=System.getProperty("browser");
+//		String url = System.getProperty("url");
+//	
+//		if(browser.equals("chrome"))
+//		{
+//			driver=new ChromeDriver();
+//			driver.get(url);	
+//		}
 		
 		
 		System.out.println("hello there");
